@@ -7,6 +7,7 @@ public class Calculator {
 
     public int calculate(int num1, int num2, char operation) {
 
+
         int result = 0;
 
         switch (operation) {
@@ -24,9 +25,10 @@ public class Calculator {
                 break;
                 default:
                throw new IllegalArgumentException("Операция не распознана. Повторите ввод.");
-
         }
-        return result;
+        return result;//
+
+
     }
 
 }
